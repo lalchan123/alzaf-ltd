@@ -148,7 +148,7 @@ const Register = () => {
                       value={month}
                       onChange={(event)=> setMonth(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[95px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 mt-1"
+                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 mt-1"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Month</option>
                       <option value='January' className="text-gray-900 text-[10px]">January</option>
@@ -168,7 +168,7 @@ const Register = () => {
                       value={day}
                       onChange={(event)=> setDay(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[95px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[100px] md:ml-[85px]"
+                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[100px] md:ml-[85px]"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Day</option>
                       <option value='Saturday' className="text-gray-900 text-[10px]">Saturday</option>
@@ -183,7 +183,7 @@ const Register = () => {
                       value={year}
                       onChange={(event)=> setYear(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[95px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[200px] md:ml-[170px]"
+                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[200px] md:ml-[170px]"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Year</option>
                       <option value='2000' className="text-gray-900 text-[10px]">2000</option>
