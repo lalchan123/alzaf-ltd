@@ -19,15 +19,6 @@ import { FaGithub } from "react-icons/fa";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
-// Debounce function to limit the rate of calling the handleScroll function
-const debounce = (func, wait) => {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func.apply(null, args), wait);
-  };
-};
-
 const MainNavbarHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [languange, setLanguage] = useState("");
@@ -59,18 +50,8 @@ const MainNavbarHeader = () => {
             <p className="text-gray-900 text-[12px]">
               Helpline: 0964781656
             </p>
-            {/* {menuItems.map((el) => (
-              <Link
-                key={el.slug}
-                href={el.slug}
-                className={`nav-item text-md md:text-[18px] font-semibold ${pathname === el.slug ? "!text-primary border-b-2 border-primary" : ""} hover:text-primary`}
-              >
-                {el.title}
-              </Link>
-            ))} */}
           </div>
           <div className="flex items-center justify-end gap-x-8">
-            {/* <MdOutlineLightMode className="text-black size-7 cursor-pointer hover:text-primary" /> */}
             <Link
               key={''}
               href={''}

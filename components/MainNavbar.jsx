@@ -21,14 +21,7 @@ import { px } from "framer-motion";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
-// Debounce function to limit the rate of calling the handleScroll function
-const debounce = (func, wait) => {
-  let timeout;
-  return (...args) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func.apply(null, args), wait);
-  };
-};
+
 
 const MainNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,7 +75,6 @@ const MainNavbar = () => {
               />  
           </div>
           <div className="flex items-center">
-            {/* <MdOutlineLightMode className="text-black size-7 cursor-pointer hover:text-primary" /> */}
            
           </div>
         </div>
@@ -130,17 +122,6 @@ const MainNavbar = () => {
           </NavbarContent>
 
           <NavbarMenu className="overflow-hidden">
-            {/* {menuItems.map((el, index) => (
-              <NavbarMenuItem key={el.slug} className="flex flex-row">
-                <Link
-                  className={`w-full text-black text-center !text-xl font-medium py-1 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
-                  href={el.slug}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {el.title}
-                </Link>
-              </NavbarMenuItem>
-            ))} */}
             <NavbarMenuItem className="flex flex-row">
               <Link
                 key={''}
