@@ -100,7 +100,7 @@ const Register = () => {
                         onChange={(event) => setPassword(event.target.value)}
                       />
                       <button
-                        className="absolute -mt-6 ml-[275px] md:ml-[285px] cursor-pointer text-gray-400 rounded-e-md focus:outline-none focus-visible:text-indigo-500 hover:text-indigo-500 transition-colors"
+                        className="absolute -mt-6 ml-[258px] md:ml-[285px] cursor-pointer text-gray-400 rounded-e-md focus:outline-none focus-visible:text-indigo-500 hover:text-indigo-500 transition-colors"
                         type="button"
                         onClick={toggleVisibilityp}
                         aria-label={isVisiblep ? "Hide password" : "Show password"}
@@ -128,7 +128,7 @@ const Register = () => {
                         onChange={(event) => setConfirmPassword(event.target.value)}
                       />
                       <button
-                        className="absolute -mt-6 ml-[275px] md:ml-[285px] cursor-pointer text-gray-400 rounded-e-md focus:outline-none focus-visible:text-indigo-500 hover:text-indigo-500 transition-colors"
+                        className="absolute -mt-6 ml-[258px] md:ml-[285px] cursor-pointer text-gray-400 rounded-e-md focus:outline-none focus-visible:text-indigo-500 hover:text-indigo-500 transition-colors"
                         type="button"
                         onClick={toggleVisibilitycp}
                         aria-label={isVisiblecp ? "Hide password" : "Show password"}
@@ -148,7 +148,7 @@ const Register = () => {
                       value={month}
                       onChange={(event)=> setMonth(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 mt-1"
+                      className="w-[85px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 mt-1"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Month</option>
                       <option value='January' className="text-gray-900 text-[10px]">January</option>
@@ -168,7 +168,7 @@ const Register = () => {
                       value={day}
                       onChange={(event)=> setDay(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[100px] md:ml-[85px]"
+                      className="w-[85px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[100px] md:ml-[85px]"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Day</option>
                       <option value='Saturday' className="text-gray-900 text-[10px]">Saturday</option>
@@ -183,7 +183,7 @@ const Register = () => {
                       value={year}
                       onChange={(event)=> setYear(event.target.value)}
                       // className="w-[82px] h-[25px] ml-[70px] text-gray-900 text-[12px] bg-gray-200"
-                      className="w-[90px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[200px] md:ml-[170px]"
+                      className="w-[85px] md:w-[80px] bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-1xl focus:ring-black focus:border-black block w-full p-2.5 py-1.5 placeholder:text-[10px] pl-1 -mt-[27px] ml-[200px] md:ml-[170px]"
                     >
                       <option value="" className="text-gray-900 text-[10px]">Year</option>
                       <option value='2000' className="text-gray-900 text-[10px]">2000</option>
@@ -227,7 +227,7 @@ const Register = () => {
                   </div>
                   <div className="w-full -mt-2 md:-mt-[10px] md:ml-[690px] md:flex-1">
                     <Button
-                      className="w-[300px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-white border border-white bg-orange-600 hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
+                      className="w-[280px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-white border border-white bg-orange-600 hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
                       radius="1xl"
                       size="1xl"
                       onClick={handleSubmit}
@@ -240,7 +240,7 @@ const Register = () => {
                   </div>
                   <div className="w-full -mt-2 md:-mt-[10px] md:ml-[690px] md:flex-1">
                     <Button
-                      className="w-[300px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-black-700 hover:text-white border border-orange-600 bg-transparent hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
+                      className="w-[280px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-black-700 hover:text-white border border-orange-600 bg-transparent hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
                       radius="1xl"
                       size="1xl"
                     >
@@ -259,7 +259,7 @@ const Register = () => {
                   </div>
                   <div className="w-full -mt-2 md:-mt-[10px] md:ml-[690px] md:flex-1">
                     <Button
-                      className="w-[300px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-black-700  hover:text-white border border-orange-600 bg-transparent hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
+                      className="w-[280px] h-[30px] md:w-[345px] flex items-center justify-center px-2 py-1 mb-2 text-[12px] font-medium text-black-700  hover:text-white border border-orange-600 bg-transparent hover:bg-orange-600 hover:border-primary md:text-[12px] md:px-8 me-0 md:me-6 rounded-1xl"
                       radius="1xl"
                       size="1xl"
                     >

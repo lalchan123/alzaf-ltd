@@ -99,7 +99,7 @@ const MainNavbar = () => {
               </Link>
               <div className="ml-[5px]">
                 <input type="search" id="default-search" class="w-[100px] p-0.3 px-0.5 text-[8px] text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Product" required />
-                <button type="submit" class="absolute  p-2.5 mt-1 -ml-[10px] text-[8px] font-medium text-white bg-yellow-700 rounded-e-lg border border-yellow-500 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
+                <button type="submit" class="absolute  p-2.5 mt-[1px] -ml-[5px] text-[8px] font-medium text-white bg-yellow-700 rounded-e-lg border border-yellow-500 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
                     <svg class="w-1 h-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                     </svg>
