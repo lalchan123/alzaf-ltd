@@ -68,8 +68,8 @@ const MainNavbar = () => {
             <Image
                 width={160}
                 height={120}
-                src="/assets/cloudservices.png"
-                alt="cloudservices"
+                src="/assets/cloud.png"
+                alt="cloud"
                 className="mt-4 ml-[10px]"
                 priority
               />  

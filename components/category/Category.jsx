@@ -16,7 +16,7 @@ const orbitron = Orbitron({ subsets: ["latin"] });
 const Category = async() => {
   
   const categories = await GetAllCategoryData();
-  console.log("5 categories", categories)
+  // console.log("5 categories", categories)
 
 
   return (
